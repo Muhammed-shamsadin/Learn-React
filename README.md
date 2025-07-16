@@ -21,9 +21,9 @@ npm -v
 Use Git to download the project:
 
 ````bash
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/your-username/your-repo-name.git](https://github.com/Muhammed-shamsadin/Learn-React.git
 ````
-Replace the URL with the actual link to your repository.
+
 Then navigate into the folder:
 
 ```bash
