@@ -8,4 +8,3 @@ export default function MoodButton({ emoji, onSelect }) {
     </button>
   );
 }
-

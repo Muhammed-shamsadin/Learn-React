@@ -1,5 +1,6 @@
 import { useState } from "react";
 import MoodButton from "./components/MoodButton";
+import CurrentMood from "./components/CurrentMood";
 
 
 export default function App() {
@@ -7,7 +8,8 @@ export default function App() {
 
   const handleMoodSelect = (selectedEmoji) => {
     console.log("Selected mood:", selectedEmoji);
-    setMood(selectedEmoji);
+    setMood(selectedEmoji); 
+    
   };
 
   return (
@@ -19,7 +21,17 @@ export default function App() {
         <MoodButton emoji="😐" onSelect={handleMoodSelect} />
         <MoodButton emoji="😢" onSelect={handleMoodSelect} />
       </div>
+
+      <button
+        onClick={() => setMood(null)}
+        className="mt-4 px-4 py-2 rounded bg-red-500 text-white hover:bg-red-600"
+      >
+        Reset Mood
+      </button>
+
+      <CurrentMood mood={mood} />
       
     </main>
   );
 }
+
