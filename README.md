@@ -17,7 +17,7 @@ Each lecture folder contains:
 ## Prerequisites
 
 - [Node.js](https://nodejs.org/) (v16 or higher recommended)
-- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+- [npm](https://www.npmjs.com/)
 
 ## Setup Instructions
 
